@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  width: 60%;
+  margin: auto;
+}
+/* меню */
+.header {
+  height: 700px;
+  background-color: #eeeff1;
+}
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 79px 413px 0 402px;
+}
+
+a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none; /* убираем нижнее подчеркивание */
+}
+a:not(:last-child) {
+  margin-right: 25px;
+}
+.design {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  padding-top: 150px;
+}
+.design-wrapper {
+  display: block;
+    align-items: center;
+    margin-left: 130px;
+}
+.header-text {
+margin: 60px 0;
+font-size: 20px;
+}
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+}
+.button {
+  padding: 20px 45px;
+  background-color: #34547a;
+    color: white;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+.about-me {
+  width: 540px;
+  margin: 128px auto 100px;
+  text-align: center
+}
+.about-me-h2 {
+  text-align: center;
+  font-size: 32px;
+}
+.about-descr {
+  color: #727272;
+  font: 16px;
+  text-align: center;
+  margin-top: 50px
+}
+
+/* проекты */
+.projects1 {
+  background-color: #34547a;
+    height: 250px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-projects {
+  display: flex;
+  margin: 100px 400px;
+}
+.about-project:not(:last-child) {
+  margin-right: 50px
+}
+.about-project {
+  display: flex;
+  width: 80%;
+}
+.a-text {
+  margin-left: 10px;
+  line-height: 26px;
+}
+.a-text h3 {
+  font-size: 21px;
+line-height: 25px;
+}
+/* мои навыки */
+.skills {
+  padding: 100px 0;
+}
+.skills-wrapper {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-info {
+  width: 40%;
+}
+.skills-title {
+  /* мои навыки */
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.skill-scale:not(:last-child) {
+  margin-bottom: 35px;
+}
+.skill-name {
+  color: rgb(112, 110, 110);
+  margin-bottom: 20px;
+}
+.skill-scale-outer {
+  height: 4px;
+  background-color: rgb(214, 201, 185);
+}
+.skill-scale-inner {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(55, 55, 166);
+}
+.skills-img {
+  display: block;
+  width: 50%;
+}
+
+.process {
+  padding: 100px 0;
+  background-color: #eeeff1;
+}
+
+.process-title {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.process-descr {
+  width: 50%;
+  color: #727272;
+  text-align: center;
+  margin: 50px auto 60px;
+}
+
+.process-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects-item {
+  width: 25%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+}
+.sticker {
+  background-image: url(./images/sticker.png);
+}
+.laptop {
+  background-image: url(./images/laptop.png);
+}
+.projects-item-inner {
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(52, 84, 122, 0.8),
+    rgba(52, 84, 122, 0.8)
+  );
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-item-inner:hover {
+  opacity: 1;
+}
+.microsoft {
+  display: flex;
+  padding: 50px 200px 50px;
+  justify-content: center;
+}
+.microsoft-img:not(:last-child) {
+  margin-right: 50px;
+}
+
+.form {
+  background: #eeeff1;
+  padding: 100px 0;
+}
+.form-wrapper {
+  width: 30%;
+  margin: auto;
+}
+.form-title {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+}
+.form-descr {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+input[name="name"],
+input[name="email"] {
+  width: 45%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  margin: 20px 0 50px;
+  font-family: "Roboto", sans-serif;
+}
+input[type="submit"] {
+  display: block;
+  margin: auto;
+  padding: 20px 45px;
+  background: #34547a;
+  border: none;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer {
+  height: 151px;
+  background:#34547a ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  color: white;
+  padding-left: 406px;
+}
+.footer-title {
+  padding-bottom: 20px;
+}
+.vk {
+  padding-right: 389px;
+}
+
+

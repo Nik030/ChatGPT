@@ -1,0 +1,172 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <!--Зголовочек-->
+        <div class="header">
+            <h1>Tour Booking Form</h1>
+        </div>
+                                <!--основное тело MAIN-->
+        <section >
+            <form action="">
+                <div class="name commondiv" >
+                    <p>Name</p>
+                        <input type="text" placeholder="Firstname">
+                        <input type="text" placeholder="Lastname">
+                </div>
+                <div class="Email commondiv">
+                    <p class="email-desc">Email</p><!--Доработать lable-->
+                    <input type="Email" placeholder="name@mail.ru">
+                </div>
+                <div class="phone commondiv">
+                    <p class="phone-desc">Phone</p><!--Доработать lable-->
+                    <input type="tel" placeholder="### ### ###">
+                </div>
+                <div class="date commondiv">
+                    <p class="date-desc">When are you planning to visit</p><!--Доработать lable-->
+                    <input type="date">
+                </div>
+                <div class="quantity commondiv">
+                    <p>How many people are in your group?</p><!--Доработать lable-->
+                    <input type="number">
+                </div>
+                <div class="tour commondiv">
+                    <p>Which tour are most interested in?</p><!--Доработать lable-->
+                    <select name="" id="">
+                        <option value="">*Please select*</option>
+                        <option>Tour1</option>
+                        <option>Tour2</option>
+                    </select>
+                </div>
+                <!--ЧекБоксы Контакт-->
+                <div class="contact commondiv">
+                    <p>What is the best way to contact you?</p>
+                    <div>
+                        <label for="phone">
+                            <input type="checkbox" id="phone">Phone
+                        </label>
+
+                        <label for="email">
+                            <input type="checkbox" id="email">Email
+                        </label>
+
+                        <label for="either">
+                            <input type="checkbox" id="either">Either
+                        </label>
+
+                    </div>
+                </div>
+                <!--ЧекБоксы Время-->
+                <div class="callback commondiv">
+                    <p>If phone, when is the best time of day for a call-back?</p>
+                    <div>
+                        <label for="radio8">
+                            <input type="radio" id="radio8" name="radio">8 - 11 AM
+                        </label>
+
+                        <label for="radio12">
+                            <input type="radio" id="radio12" name="radio">12 - 4 PM
+                        </label>
+
+                        <label for="radio6">
+                            <input type="radio" id="radio6" name="radio">6 - 10 PM
+                        </label>
+                    </div>
+                </div>
+                <!--ТекстПОЛЕ ОТВЕТА-->
+                <div class="answer commondiv">
+                    <p>Anything else we should know?</p>
+                    <textarea cols="30" rows="10"></textarea>
+                </div>
+                <!--Кнопка Отправить Форму-->
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+    </main>
+    <!--Чисто теоретический FOOTER-->
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form action="">
+    <input type="text" placeholder="Введите имя" required>
+    <input type="number" placeholder="введите стоимость" required>
+    <input type="email" placeholder="введите имейл">
+    <input type="password" placeholder="введите ваш пароль">
+    <input type="checkbox">мужской
+    <input type="checkbox">женский
+    <input type="date" name="birthday" id="birthday-field">
+    <input type="color">
+    <input type="file">
+    <input type="submit">
+
+    <select name="" id="">
+        <option value="male">мужской</option>
+        <option value="female">женский</option>
+    </select>
+
+    <textarea  cols="30" rows="10" placeholder="отзыв"></textarea>
+
+</form> -->
+</body>
+
+</html>

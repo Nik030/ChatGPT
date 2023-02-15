@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 40px;
+}
+
+.block {
+  border: 5px solid red;
+  width: 600px;
+  margin: 0 auto;
+  height: 1000px;
+}
+.block div {
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+}
+.block_1 {
+  background-color: blue;
+  position: relative;
+  z-index: 1; /* изменить приоритет слоя */
+}
+.block_2 {
+  background-color: aqua;
+  position: relative;
+  left: ;
+  right: ;
+  top: ;
+  bottom: 30px;
+}
+.block_3 {
+  background-color: blueviolet;
+}
